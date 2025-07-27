@@ -38,3 +38,5 @@ We created mock datasets for pet owners and their pets, then queried them using 
 
 - This project assumes the notebook is run locally. Make sure `data/` folder exists with required files.
 - Output cells are preserved for clarity — do not clear outputs before exporting to HTML or PDF.
+
+This notebook is a static portfolio piece and is not intended to be re-run. All outputs are preserved for clarity.

@@ -8,9 +8,11 @@ We created mock datasets for pet owners and their pets, then queried them using 
 
 - `create_dummy_pet_database.ipynb` — Generates CSVs for pet owners and pets
 - `analyze_pet_database_sql_version.ipynb` — Main analysis notebook (with SQL queries + charts)
-- `owners.csv`, `pets.csv` — Simulated source data
-- `pet_clinic.db` — SQLite database generated from the CSVs
+- `data/owners.csv`, `data/pets.csv` — Simulated source data
+- `data/pet_clinic.db` — SQLite database generated from the CSVs
 - `analyze_pet_database_sql_version.html` — Exported HTML for easy viewing
+
+> 🗂️ Tip: Keep all raw data and DB files inside the `data/` folder for a cleaner repo structure.
 
 ## 🔍 Key Highlights
 
@@ -31,3 +33,8 @@ We created mock datasets for pet owners and their pets, then queried them using 
 - Time series plot of license activity using `license_date_created`
 - Correlation between pet type and license status
 - Add dashboard with Streamlit or Tableau for interactive exploration
+
+## 📌 Notes
+
+- This project assumes the notebook is run locally. Make sure `data/` folder exists with required files.
+- Output cells are preserved for clarity — do not clear outputs before exporting to HTML or PDF.
